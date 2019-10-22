@@ -2,7 +2,6 @@ name: heroku-jupyter
 dependencies:
   # bind notebook version (compatibility to pgcontents)
   - pip
-  - notebook = 4
   - ipywidgets
   - requests
   # bind ipython version (compatibility to pgcontents)
@@ -18,6 +17,7 @@ dependencies:
   - six
   - sqlalchemy
   - nose
-  - pgcontents
   - pip:
+    - notebook = 4
+    - pgcontents
     - git+git://github.com/ipython-contrib/jupyter_contrib_nbextensions.git
