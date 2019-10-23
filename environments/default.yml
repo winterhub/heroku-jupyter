@@ -1,6 +1,7 @@
 name: root
 dependencies:
   # bind notebook version (compatibility to pgcontents)
+  - pip
   - pip:
     - notebook == 4
     - ipywidgets
